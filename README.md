@@ -62,7 +62,7 @@ function download(url, filename) {
 
 download('./example.zip', './output.zip');      // LOCAL DISK EXAMPLE
 // download('http://domain.com/example.zip', 'downloaded.zip'); // HTTP NO-CORS EXAMPLE
-// download('https://domanin.com/example.zip', 'download.zip'); // HTTPS CORS ON EXAMPLE
+// download('https://domanin.com/example.zip', 'download.zip'); // HTTPS CORS ON EXAMPLE - { mode: cors } TURNED ON AND HEADERS SET PROPERLY ON SERVER
 ```
 
 - Creates a DOM element automatically and triggers the download once the page loads,
