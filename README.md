@@ -60,7 +60,8 @@ function download(url, filename) {
     })
 }
 
-download('./example.zip', './output.zip');        // LOCAL DISK
+download('./example.zip', './output.zip');      // LOCAL DISK EXAMPLE
+// download('http://domain.com/example.zip', 'downloaded.zip'); // HTTP NO-CORS EXAMPLE
 ```
 
 - Creates a DOM element automatically and triggers the download once the page loads,
